@@ -36,7 +36,7 @@ section.padding {
 section img.background {
   height: 100%;
   left: 50%;
-  object-fit: cover;
+  object-fit: contain;
   pointer-events: none;
   position: absolute;
   top: 0;
@@ -47,7 +47,7 @@ section img.background {
 
 h1 {
   font-family: "Cormorant Garamond", serif;
-  font-size: 7rem;
+  font-size: 4rem;
   font-weight: 400;
   line-height: 0.8;
   margin: 0;

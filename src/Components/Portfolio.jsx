@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/socials/portfolio.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "KUvents",
+    description: "An event website for Kathmandu University for the students to upload events conducted by respective departments.",
+    url: "https://github.com/Samikshyagithub/KUventsJS",
   },
   {
-    title: "Web Development for Beginners",
+    title: "ConfiVerse: A Virtual Confidence Journey",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "ConfiVerse is a revolutionary platform designed to address the challenges faced by international students and professionals in building their confidence, particularly in public speaking and interview scenarios. ",
+    url: "https://github.com/Samikshyagithub/KU-Hackfest-2023",
   },
   {
-    title: "My Resume Site",
+    title: "Emotion Detection",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This project aims to develop an emotion detection system that uses facial expressions as input.",
+    url: "https://github.com/Samikshyagithub/Emotion-Detection",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Polpos-Paradise",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Our innovative system provides a convenient and flexible method for addressing locations, catering to both public and private needs.",
+    url:" https://github.com/Samikshyagithub/Polpos-Paradise-infinity-hackathon",
   },
 ];
 
@@ -64,7 +63,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "70%", width: "70%", display: "flex", paddingRight: "100px", position: "relative", left: "200px"}}
             alt={imageAltText}
           />
         </div>
